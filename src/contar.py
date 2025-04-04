@@ -1,7 +1,6 @@
 def contar_rondas (rounds):
     final = {}
     num = 0
-    kills = 0
     for round  in rounds: 
         for personaje,datos in round.items():
         #Si no cree el dicc del personaje
@@ -32,7 +31,8 @@ def contar_rondas (rounds):
                 nombre = jugador
         final[nombre]['mvp'] += 1
         
-    #Imprime resultado de la ronda por ronda
+    #Imprmo resultado de ronda por ronda
+        num = num + 1
         print(f"Resultado ronda {num}")
         print(f"|{'Personaje':<9}|{'Kills':<5}|{'Assists':<7}|{'Deaths':<6}|{'Mvp':<3}|{'Puntos':<6}|")
         for personaje, datos in final.items():
