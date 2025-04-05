@@ -12,11 +12,11 @@ Dentro de la terminal del proyecto ejecute el siguiente comando:" pip install -r
 Contenido del trabajo: 
 
 TP2/
-│── notebook/           # Notebooks con analisis y resultados
+│── notebook/           # Notebook con analisis y resultados
 │      ├── principal.ipynb
 │── src/                         # Codigo fuente y funciones
-│      ├── __init__.py       # Este archivo lo hace un paquete
-│      ├── contar.py   # Archivo donde estan tus funciones
+│      ├── __init__.py       
+│      ├── contar.py   # Archivo donde las funciones
 │── requirements.txt     # Dependencias del proyecto
 │── README.md
 │── .gitignore
